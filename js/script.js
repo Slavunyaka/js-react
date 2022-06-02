@@ -134,6 +134,136 @@
 //! -- оператор отрицания напр.!= не равно.и т.д.
 
 
+// //Блок2/19.
+// const numberOfFilms = +prompt("Сколько фильмов вы просмотрели?", '');
+
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
+
+// const a = prompt('Один из просмотренных ранее фильмов?', ''),
+//     b = prompt('На сколько оцените его?', ''),
+//     c = prompt('Один из последних просмотренных фильмов?', ''),
+//     d = prompt('На сколько оцените его?', '');
+
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[c] = d;
+
+// console.log(personalMovieDB);
 
 
+//Блок2.21.Логические операторы.
 
+// const hamburger = true;
+// const fries = true;
+
+// if (hamburger && fries) {
+//     console.log('Я сыт!');
+// }
+// console.log((hamburger && fries));
+
+// здч. трое чел хотят сьесть по гамбургеру один хочет еше и картошку
+// const hamburger = 2;
+// const fries = 1;
+
+// if (hamburger === 3 && fries) {
+//     console.log('Я сыт!');
+// }else {
+//     console.log('мы уходим');
+// }
+
+//Блок2.22.Циклы
+
+// let num = 50;
+// while (num <= 55) { //ПОКА
+//     console.log(num);
+//     num++;
+// }
+
+// let num = 50;
+// do {
+//     console.log(num);
+//     num ++;
+// }
+// while (num <= 55);
+
+// let num = 50;
+// for (let i = 1; i < 8; i++){ //В течении чего-то или ОТ и ДО.
+//     if (i === 6){
+//         //break;
+//         continue;
+//     }
+//     console.log(i);
+// }
+
+//----------------------------------дз
+    // for(let i = 5; i <=10; i++){
+        
+    // console.log(i);}
+
+    // function firstTask() {
+    //     for (let i =5; i <=10;i++){
+    //     console.log(i);
+    //     }
+    // }
+    // firstTask();
+
+
+    // function secondTask() {
+    //     for (let i = 20; i >= 10; i--){
+    //         if (i === 13){
+    //             break;
+    //         }
+    //         console.log(i);
+    //     }
+    // }
+    // secondTask();
+
+    // function thirdTask() {
+    //     for (let i = 2; i <= 10; i++ ){
+    //         if(i % 2===0){
+    //             console.log(i);
+    //         }
+            
+    //     }
+    // }
+    // thirdTask();
+
+    // for (let i = 2; i <= 16; i++) {
+    //         if (i % 2 === 0) {
+    //             continue;
+    //         } else {
+    //             console.log(i);
+    //         }
+    //     }
+        
+        // function fourthTask() {
+        //     let i = 2;
+        //     while (i <= 16){
+        //         if(i % 2 === 0){
+        //             i++;
+        //             continue;
+        //         }else {
+        //             console.log(i);
+        //            i ++;
+        //         }
+        //     }
+        // }
+        // fourthTask();
+
+        // function fifthTask() {
+        //     const arrayOfNumbers = [];
+        //     for(let i = 5; i <=10; i++){
+        //         arrayOfNumbers[i - 5] = i;
+        //     }
+        //     console.log(arrayOfNumbers);
+        //     // Не трогаем
+        //     return arrayOfNumbers;
+        // }
+        // fifthTask();
+
+        
